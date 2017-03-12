@@ -1,0 +1,11 @@
+$space: 10px;
+
+html, body {
+	font-size: 62.5%;
+}
+
+.clearfix:after{  /*最简方式*/
+    content: '';
+    display: block;
+    clear: both;
+}
